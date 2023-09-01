@@ -5,3 +5,20 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+body {
+  background-color: lightblue;
+}
+
+.post-content {
+  color: rgb(78, 117, 143);
+  font-size: large;
+}
+
+.social-media-list {
+  // background-color: whitesmoke;
+  padding: 6px;
+  padding-left: 32px;
+  margin-left: 163px;
+  font-weight: 700;
+}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introduction Post"
+author: JC Ntambara
 ---
 
 ## Ruby Installations

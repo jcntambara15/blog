@@ -16,7 +16,6 @@
             </svg>
           </span>
         </label>
-
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -24,6 +23,7 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <a href="https://hendrix-cs.github.io/csci340/index.html">CSCI 340</a>
         </div>
       </nav>
     {%- endif -%}
