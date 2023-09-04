@@ -16,8 +16,8 @@ I love taking pictures, so though not related to this page, but I wanted to add 
 
 #### Picture 1
 
-![Image 1](/assets/images/JCC.jpg){:width="60%" height="500"}
+![Image 1](../assets/images/JCC.jpg){:width="60%" height="500"}
 
 #### Picture 2
 
-![Image 2](/assets/images/illusion.jpg){:width="60%" height="500"}
+![Image 2](../assets/images/illusion.jpg){:width="60%" height="500"}
