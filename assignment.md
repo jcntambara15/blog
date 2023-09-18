@@ -16,8 +16,9 @@ I love taking pictures, so though not related to this page, but I wanted to add 
 
 #### Picture 1
 
-![My image Name](/JCC.jpg){:width="60%" height="500"}
+![Image 1]({{"/assets/images/JCC.jpg" | relative_url}}){:width="60%" height="500"}
+
 
 #### Picture 2
 
-![My image Name](/illusion.jpg){:width="60%" height="500"}
+![Image 2]({{"/assets/images/illusion.jpg" | relative_url}}){:width="60%" height="500"}
