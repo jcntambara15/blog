@@ -11,7 +11,7 @@ author: JC Ntambara
 
 ### ER Implementation Assumptions
 
-From the given description above, I assumed that the entire model is going to be based on the store, which resulted in me not including the store or the store owner as entities. I considered the idea that this whole process is going to involve customers, items, and orders connected with each other based on their relationship. Therefore, my assumption was that it was probably important to create three entities, with each entity having it's own given attributes. There are some extra information that I considered leaving out because I didn't figure out where they should fit in my three entities, and I assumed they are not necessary as long as the important information in regards to the connection was included. 
+From the given description above, I assumed that the entire model is going to be based on the store, which resulted in me not including the store or the store owner as entities. I considered the idea that this whole process is going to involve customers, items, and orders connected with each other based on their relationship. Therefore, my assumption was that it was probably important to create three entities, with each entity having it's own given attributes. There are some extra information that I considered leaving out because I didn't figure out where they should fit in my three entities, and I assumed they are not necessary as long as the important information in regards to the connection was included.
 
 ### LucidChat ER Diagram
 
@@ -21,7 +21,7 @@ The above Entity RElationship Diagram shows the aforementioned three entities. T
 
 ### Vertabelo Schema
 
-![ER-Schema]({{"/assets/images/ER-Schema.png" | relative_url}}){:width="100%"}
+![Schema]({{"/assets/images/ER-schema.png" | relative_url}}){:width="100%"}
 
 This vertabelo schema is also the exact same representation of the things I mentioned about the ER-Diagram, except that it's represented in tables. The Item is connected to the Order by Includes which brings in all the primary keys of both Item and Order as Foreign Keys. Additionally, Customer table is also connected to Order because as I mentioned earlier, a customer should be able to create an order and zero or many orders should belong to a customer. 
 
