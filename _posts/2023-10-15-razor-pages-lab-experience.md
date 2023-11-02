@@ -29,8 +29,3 @@ The first thing I noticed as the similarities is the ability to provide input an
 ### How Confident Do I Feel Making Another Razor Application?
 
 After a few practices and noticing the pattern, I feel confident enough to create a simple application that, at least, involves a single data model. 
-
-
-
-
-
